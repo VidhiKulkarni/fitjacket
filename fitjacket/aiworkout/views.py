@@ -74,7 +74,8 @@ def aiworkout_view(request):
             "Use motivating language and mention that it is personalized for the user. FitJacket hopes they enjoy it. "
             "Include at least 5 exercises with: name, sets, reps, rest time, and whether equipment is needed. "
             "Format clearly without asterisks, markdown, or bolding. Avoid extra spacing after exercise numbers. "
-            "Make it a little scientific. Follow the format below:\n\n"
+            "Make it a little scientific. For the excercise name, just have the name, DO NOT use Parenthesis with extra descriptions whatsoever."
+            " Do Not use any description like (optional) or specific measurements. Follow the format below:\n\n"
 
             "Example:\n"
             "This workout focuses on building foundational strength and improving your explosive power. "
